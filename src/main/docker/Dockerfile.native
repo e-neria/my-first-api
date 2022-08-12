@@ -7,11 +7,11 @@
 #
 # Then, build the image with:
 #
-# docker build -f src/main/docker/Dockerfile.native -t quarkus/mi-first-api .
+# docker build -f src/main/docker/Dockerfile.native -t quarkus/my-first-api .
 #
 # Then run the container using:
 #
-# docker run -i --rm -p 8080:8080 quarkus/mi-first-api
+# docker run -i --rm -p 8089:8080 quarkus/my-first-api
 #
 ###
 FROM registry.access.redhat.com/ubi8/ubi-minimal:8.5

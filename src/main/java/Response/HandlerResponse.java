@@ -35,6 +35,6 @@ public class HandlerResponse
     @RegisterForReflection
     public static class DataResponse
     {
-        List<?> data;
+        Object data;
     }
 }
